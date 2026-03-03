@@ -1,4 +1,5 @@
 site_name: Reserchium 📚🔬
+site_url: https://algiras.github.io/reserchium/
 site_description: AI-powered Research Assistant CLI with Advanced RAG, Graphs, and Agents.
 site_author: Algiras
 repo_url: https://github.com/Algiras/reserchium
