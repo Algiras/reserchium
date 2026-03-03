@@ -1,0 +1,46 @@
+site_name: Reserchium 📚🔬
+site_description: AI-powered Research Assistant CLI with Advanced RAG, Graphs, and Agents.
+site_author: Algiras
+repo_url: https://github.com/Algiras/reserchium
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          setup_commands:
+            - import os
+            - import sys
+            - sys.path.insert(0, os.path.abspath("."))
+
+nav:
+  - Home: index.md
+  - Features: features.md
+  - Usage Guide: usage.md
+  - API Reference: api.md
+  - Verification: verification.md

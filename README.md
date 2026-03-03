@@ -1,5 +1,7 @@
 # Reserchium 📚🔬
 
+[![CI Status](https://github.com/Algiras/reserchium/actions/workflows/test.yml/badge.svg)](https://github.com/Algiras/reserchium/actions)
+
 **Reserchium** is a state-of-the-art AI-powered Research Assistant CLI. It leverages Advanced RAG, Knowledge Graphs, and Autonomous Agents to help researchers ingest, synthesize, and critically evaluate academic papers with unprecedented depth.
 
 ## 🌟 Key Features
