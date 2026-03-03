@@ -29,7 +29,7 @@ jobs:
       - name: Install dependencies
         run: |
           uv sync
-          uv pip install mkdocs-material "mkdocstrings[python]"
+          uv pip install "mkdocs>=1.6,<2" mkdocs-material "mkdocstrings[python]"
 
       - name: Build docs
         run: uv run mkdocs build --strict --site-dir _site
